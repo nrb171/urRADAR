@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urRADAR</title> 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+        
+    </style> 
+    
+<head>
+<body>
+    
+    <nav class="nav">
+        <a href="/" class ="nav__link" data-link=>Dashboard</a>
+        <a href="/posts" class ="nav__link" data-link=>Posts</a>
+        <a href="/login" class ="nav__link" data-link=>Login</a>
+        <a href="/register" class ="nav__link" data-link=>Register</a>
+        <a href="/mapView" class ="nav__link" data-link=>mapView</a>
+        
+
+    </nav>
+
+    <div id="map"></div>
+    
+    <script type="module" src="/static/js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlxjnnxpIVdtn2zBgW6nLtYBYbs_-sllc"
+     defer></script>
+
+</body>
+</html>
+    <!-- <h1>urRADAR</h1>
+    <p>urRADAR is a web application that allows you to track the weather in your area.</p>
+    <p>Click <a href="http://localhost:5000/login">here</a> to login.</p>
+    <p>Click <a href="http://localhost:5000/register">here</a> to register.</p> -->
